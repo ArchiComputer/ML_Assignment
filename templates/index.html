@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+{# SEO#}
+    <title>CSCI 5622 Machine Learning Project</title>
+    <meta name="description" content="Machine Learning Project showcasing everything I learn in CSCI 5622-874 class">
+    <meta name="author" content="Jusung Kim">
+    <link rel="shortcut icon" href="../static/images/SeoulBike_Logo.ico" type="image/x-icon">
+{# OG(Open Grape Data)#}
+    <meta property="og:title" content="Jusung Kim's ML Project">
+    <meta property="og:tpye" content="website" />
+    <meta property="og:url" content="배포후 생성된 URL"/>
+    <meta property="og:image" content="배포후 생선된 이미지 URL" />
+{# Google Fonts#}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+{# Font Awesome#}
+    <script src="https://kit.fontawesome.com/9b4713dae3.js" crossorigin="anonymous"></script>
+{# CSS#}
+    <link rel="stylesheet" href="../static/css/style.css">
+{# Javascript#}
+    <script src="../static/src/main.js" defer></script>
+<body>
+{# Header#}
+    <header>
+        <div>
+            <img src="../static/images/SeoulBike_Logo.ico" alt="logo" />
+            <h1><a href="#">Optimizing Urban Mobility</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#DataPrep/EDA">DataPrep/EDA</a></li>
+                <li><a href="#model/method_1">Model_1</a></li>
+                <li><a href="#model/method_2">Model_2</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+{# Main#}
+    <main>
+{#       Home#}
+        <section id="home">
+            <img src="../static/images/SeoulBike.png" alt="SeoulBike_home">
+            <h2>"Optimizing Urban Mobility: Harnessing Machine Learning for Seoul Bicycle Sharing"</h2>
+            <p>"This project delves into the sustainable and efficient management of Seoul Bicycle Sharing, leveraging machine learning for predictive demand analysis, dynamic pricing strategies, and proactive maintenance scheduling. By harnessing advanced technology, it aims to optimize operations, enhance user experience, and ensure the long-term viability of urban bike-sharing systems."</p>
+        </section>
+{#       introduction#}
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <img src="../static/images/SeoulBike_intro.jpeg" alt="SeoulBike_intro">
+            <p>The latest United Nations report, as of 2018, reveals that over half of the global population resided in urban areas, a figure projected to soar to 68% by 2050. With urbanization on the rise, cities are confronting fresh challenges that demand innovative solutions across housing, infrastructure, services, and transportation. Adapting to evolving mobility needs mandates cost-effective, eco-friendly, and reliable transport methods to facilitate seamless movement of people and goods, thereby addressing issues like traffic congestion, air pollution, and lengthy commutes.
+
+Seoul Bicycle Sharing is a public bike-sharing initiative available in Seoul, South Korea, engineered to offer convenient and eco-friendly transportation options for residents and visitors alike.
+
+The performance of Seoul Bicycle Sharing has been consistently improving year by year. The average daily use surged to 87,817, marking a six-fold increase from 2017 (13,783 cases). The rental cases from January to May 2022 totaled 14.14 million, indicating a 38.3% increase compared to the same period last year.
+
+The number of members has also steadily climbed, surpassing 3.5 million, meaning one in three Seoul citizens is a member of Seoul Bicycle Sharing. The cumulative travel distance reached 275.31 million kilometers, equivalent to traveling 2.5 times from Earth to Mars. Additionally, the cumulative carbon savings amounted to 1968 tons, highlighting its eco-friendly nature. The Seoul Metropolitan Government reported 4.96 million uses of Seoul Bicycle Sharing in May, with the annual usage projected to hit 40 million by year-end.
+
+Despite its growing popularity, concerns over the mounting deficit have surfaced. The deficit, which stood at 9 billion won in 2019, increased to 9.9 billion won in 2020 and 10.3 billion won last year. The annual deficit of Seoul Bicycle Sharing has been steadily rising since 2016, reaching 2.5 billion won. Behind the project's acclaim, such as the Seoul Metropolitan Government's announcement to inject 3,000 more bicycles this year, the chronic deficit remains unresolved.
+
+Machine learning technology can play a pivotal role in optimizing operations, enhancing user experience, and ensuring the long-term sustainability of Seoul Bicycle Sharing and similar bike-sharing programs. Firstly, by analyzing historical usage data, machine learning algorithms can forecast bicycle demand at different times and locations across the city, facilitating optimal bike distribution to meet demand. Secondly, machine learning algorithms can adjust pricing dynamically based on factors like time of day, weather conditions, and special events, encouraging usage during off-peak hours and less congested areas. This strategy helps balance demand across the system. Lastly, machine learning algorithms can analyze sensor data from bicycles to predict potential mechanical failures or maintenance needs preemptively, minimizing downtime and enhancing overall user satisfaction.
+</p>
+            <p>User survey
+
+Who are the main customers of which shared bike?
+
+Time
+
+At what time of day do people use Seoul Bicycle Sharing the most?
+
+At what time of day do people use Seoul Bicycle Sharing the least?
+
+Weather and Season
+
+What weather factors influence people to use Seoul Bicycle Sharing?
+
+Which seasons influence people to use Seoul Bicycle Sharing?
+
+Air Pollution and Fine Dust
+
+How much air pollution and fine dust index affect people's use of Seoul Bicycle Sharing?
+
+A Survey on the Utilization Rate of Bicycle by Region
+
+Where do shared bicycles get returned excessively?
+
+Where do shared bicycles get over-rented?
+
+Shared Bicycles What are the most and least used places?
+
+A Bicycle Malfunction
+
+ The relationship between the use of bicycles according to the season and the number of reported failures
+
+ The relationship between the cumulative usage (time of use, distance traveled) of bicycles (unique number) that have received a lot of failures?
+
+ Relationship between Shared Bicycle Model and Failure Rate
+</p>
+        </section>
+{#       DataPrep/EDA#}
+        <section id="DataPrep/EDA"></section>
+{#       model/method_1#}
+        <section id="model/method_1"></section>
+{#       model/method_2#}
+        <section id="model/method_2"></section>
+{#       Testimonials#}
+        <section id="conclusion"></section>
+{#        Arrow Up#}
+        <aside></aside>
+    </main>
+{# Footer#}
+    <footer></footer>
+</body>
+</html>
